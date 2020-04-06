@@ -159,7 +159,6 @@ height: auto;
 }
 #tekst .paragraf {
     display:inline-block;
-    float: left;
     margin-right: 15px;
     margin-bottom: 15px;
       position: absolute;
