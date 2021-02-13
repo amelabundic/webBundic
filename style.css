@@ -5,7 +5,7 @@
     padding: 0px;
     width: 1200px;
     border: 1px solid grey;
-    background-color: rgba(231, 196, 196, 0.479);
+    background-color: rgba(95, 126, 107, 0.479);
    
 }
 
@@ -85,7 +85,7 @@
     font-family: serif;
     padding-left: 330px;
     padding-right: 150px;
-    padding-top: 185px;
+    padding-top: 100px;
 }
 
 
@@ -95,6 +95,7 @@
     font-weight: bold;
     text-align: center;
     font-family: serif;
+    padding-top: 70px;
 }
 
 .mani.slike {
@@ -138,8 +139,10 @@
     background-repeat: no-repeat;
     background-position: centar center;
     background-size: 100%;
-    width: 100%;
-    height: 800px;
+    /* width: 100%; */
+    height: 750px; 
+    border: 2px solid white;
+    width: fit-content;
     
 }
 .slika1 {
@@ -179,11 +182,15 @@ height: auto;
 
 
 #mani {
-
+/* 
     width: 1197px;
     background-color: white;
-    border: 2px solid grey;
-    
+    border: 2px solid grey; */
+
+    background-color: white;
+    /* border: 1px solid grey; */
+    width: auto;
+   
 }
 #vrsimo {
     float: left;
