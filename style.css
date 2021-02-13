@@ -75,7 +75,8 @@
 .mani {
     background-color: rgba(54, 56, 48, 0.349);
     border: 2px solid white;
-    width: 100%;
+    width: fit-content;
+
 }
 
   .paragraf {
@@ -101,12 +102,16 @@
     flex-grow: 1;
     height: 400px;
     justify-content: space-between;
-    
+    padding: 5px;
+   
+}
+.slike{
+    padding-left: 53px;
 }
 .slike .slikaslika {
     height: 400px;
-    padding: 10px 38px;
-    border: 1px solid white;
+    padding: 10px 20px;
+    border: 3px solid white;
     border-radius: 25px;
 }
 
@@ -119,7 +124,7 @@
 
 .footer {
     
- width: 100%;
+ width: auto;
  height: 60px;
  background-color: black;
  color: white;
@@ -215,7 +220,7 @@ height: auto;
 
 .footer1 {
     clear: both;
-    width: 100%;
+    width: auto;
     height: 60px;
     background-color: black;
     color: white;
@@ -226,6 +231,7 @@ height: auto;
    }
    .kontakt {
        position: relative;
+       width: auto;
        
    }
     .kontakt #adresa{
